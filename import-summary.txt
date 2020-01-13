@@ -1,0 +1,114 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/workspace.xml
+* app/
+* app/build.gradle
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/java/
+* app/src/main/java/com/
+* app/src/main/java/com/example/
+* app/src/main/java/com/example/android/
+* app/src/main/java/com/example/android/threadsample/
+* app/src/main/java/com/example/android/threadsample/BroadcastNotifier.java
+* app/src/main/java/com/example/android/threadsample/Constants.java
+* app/src/main/java/com/example/android/threadsample/DataProvider.java
+* app/src/main/java/com/example/android/threadsample/DataProviderContract.java
+* app/src/main/java/com/example/android/threadsample/DisplayActivity.java
+* app/src/main/java/com/example/android/threadsample/PhotoDecodeRunnable.java
+* app/src/main/java/com/example/android/threadsample/PhotoDownloadRunnable.java
+* app/src/main/java/com/example/android/threadsample/PhotoFragment.java
+* app/src/main/java/com/example/android/threadsample/PhotoManager.java
+* app/src/main/java/com/example/android/threadsample/PhotoTask.java
+* app/src/main/java/com/example/android/threadsample/PhotoThumbnailFragment.java
+* app/src/main/java/com/example/android/threadsample/PhotoView.java
+* app/src/main/java/com/example/android/threadsample/ProgressNotifier.java
+* app/src/main/java/com/example/android/threadsample/RSSPullParser.java
+* app/src/main/java/com/example/android/threadsample/RSSPullService.java
+* app/src/main/res/
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/icon.png
+* app/src/main/res/drawable-ldpi/
+* app/src/main/res/drawable-ldpi/icon.png
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/icon.png
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/icon.png
+* app/src/main/res/drawable/
+* app/src/main/res/drawable/decodedecoding.xml
+* app/src/main/res/drawable/decodequeued.xml
+* app/src/main/res/drawable/imagedownloadfailed.xml
+* app/src/main/res/drawable/imagedownloading.xml
+* app/src/main/res/drawable/imagenotqueued.xml
+* app/src/main/res/drawable/imagequeued.xml
+* app/src/main/res/layout/
+* app/src/main/res/layout/fragmenthost.xml
+* app/src/main/res/layout/galleryitem.xml
+* app/src/main/res/layout/gridlist.xml
+* app/src/main/res/layout/photo.xml
+* app/src/main/res/layout/progress.xml
+* app/src/main/res/values-sw600dp/
+* app/src/main/res/values-sw600dp/bools.xml
+* app/src/main/res/values-sw600dp/dimens.xml
+* app/src/main/res/values-v11/
+* app/src/main/res/values-v11/styles.xml
+* app/src/main/res/values-xlarge/
+* app/src/main/res/values-xlarge/bools.xml
+* app/src/main/res/values-xlarge/dimens.xml
+* app/src/main/res/values/
+* app/src/main/res/values/attrs.xml
+* app/src/main/res/values/bools.xml
+* app/src/main/res/values/dimens.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* app/src/main/resources/
+* app/src/main/resources/com/
+* app/src/main/resources/com/.DS_Store
+* app/src/main/resources/com/example/
+* app/src/main/resources/com/example/.DS_Store
+* app/src/main/resources/com/example/android/
+* app/src/main/resources/com/example/android/.DS_Store
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* settings.gradle
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/com/.DS_Store => app/src/main/resources/com/.DS_Store
+* src/com/example/.DS_Store => app/src/main/resources/com/example/.DS_Store
+* src/com/example/android/.DS_Store => app/src/main/resources/com/example/android/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
