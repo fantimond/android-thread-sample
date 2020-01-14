@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.android.threadsample"
-        minSdkVersion 11
+        minSdkVersion 14
         targetSdkVersion 28
     }
 
@@ -16,4 +16,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'org.apache.httpcomponents:httpcore:4.4.12'
 }
